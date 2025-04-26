@@ -1,0 +1,15 @@
+.icon-stack {
+    position: relative;
+    font-size: 3rem; /* Adjust size as needed */
+    color: orange; /* Make the entire icon orange initially */
+  }
+
+  .icon-stack::after {
+    content: '|_|'; /* The base of the icon */
+    position: absolute;
+    bottom: -3px; /* Adjust position to align with the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    color: gray; /* Set the lower part color to gray */
+    font-size: 0.8rem; /* Adjust the size as needed */
+  }
